@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <style>
+    #st{
+       color: blue;
+    }
+    </style>
+</head>
+<body>
+    <form> 
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname" placeholder="first" >
+     <label for="fname">second name:</label>
+         <input type="text" id="fname" name="fname" placeholder="second" >
+       <br>
+     <label id="gendertitle">gender</label><br>
+     <input type="radio" id="gender" name="gender" value="male"/>Male
+     <br><input type="radio" id="gender" name="gender" value="female"/>female  
+     <br><input type="radio" id="gender" name="gender" value="other"/>other 
+     <br><label id="address">address</label>
+     <br><input type="checkbox" id="1ast" name="1ast" value="ktm">
+     <label id="st" for="1st">KTM</label>
+     <br><input type="checkbox" id="2nd" name="2nd" value="bkt">
+     <label id="2nd" for="2nd">BKT</label>
+     <br><input type="checkbox" id="3rd" name="3rd" value="ltp">
+     <label id="3rd" for="3rd">LTP</label>
+     <br><select id="car" name="car">
+        <option value="lambo">lambo</option>
+        <option value="tesla">tesla</option>
+        <option value="porsha">porsha</option> 
+     </select>
+     
+     <br><input type="submit">
+    </form>
+    
+</body>
+</html>
